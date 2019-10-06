@@ -1,0 +1,127 @@
+/*estilos para las vistas profesor, alumno, coordinador, servidor social*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px
+}
+body {
+	background: rgb(229, 231, 233);
+}
+
+main {
+	width: 100%;
+	display: flex;
+}
+header {
+	width: 100%;
+	height: 60px;
+	background: #227FBC;
+}
+header span {
+	font-size: 30px;
+	padding: 10px;
+	color: #fff;
+	transition: all 300ms;
+	cursor: pointer;
+	position: relative;
+	top: 6px;
+	left: 10px;
+}
+header span:hover {
+	background: rgba(0,0,0,.4);
+	border-radius: 10px;
+	transition: all 300ms;
+}
+
+.content-menu2 {
+	transform: translateX(-100px);
+}
+
+.content-menu {
+	width: 100px;
+	background: #161616;
+	transition: all 300ms;
+}
+
+.content-menu li {
+	list-style: none;
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+	transition: all 300ms;
+	cursor: pointer;
+}
+.content-menu li:hover {
+	transform: translateY(10px);
+	background: rgba(0,0,0,.5);
+}
+.content-menu li span {
+	font-size: 40px;
+	margin-top: 24px;
+}
+.content-menu li h4 {
+	font-weight: 100;
+	transform: translateY(14px) translateX(-120px);
+	transition: all 300ms;
+}
+.icon1 {
+	color: #BA7404;
+}
+.icon2 {
+	color: #1BBFB2;
+}
+.icon3 {
+	color: #ffbf00;
+}
+.icon4 {
+	color: #92a0c9;
+}
+.icon5 {
+	color: #Bff;
+}
+.icon6 {
+	color: #FDEBD0;
+}
+
+.icon7 {
+	color: #EE2F14;
+}
+
+.content-menu:hover .text1 {
+	transform: translateX(0px);
+	transition: all 100ms;
+}
+.content-menu:hover .text2 {
+	transform: translateX(0px);
+	transition: all 200ms;
+}
+.content-menu:hover .text3 {
+	transform: translateX(0px);
+	transition: all 300ms;
+}
+.content-menu:hover .text4 {
+	transform: translateX(0px);
+	transition: all 400ms;
+}
+.content-menu:hover .text5 {
+	transform: translateX(0px);
+	transition: all 500ms;
+}
+
+article {
+	background: rgb(229, 231, 233);
+	padding: 20px;
+}
+article h1 {
+	font-size: 50px;
+	text-align: center;
+}
+article p {
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
