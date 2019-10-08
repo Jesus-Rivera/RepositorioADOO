@@ -1,0 +1,27 @@
+.Subir
+{
+	width: 100%;
+}
+
+h2
+{
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+textarea
+{
+	max-width: 500px;
+	min-width: 500px;
+	max-height: 100px;
+	min-height: 100px;
+}
+
+input[type = "submit"]
+{
+	background-color: lightgrey;
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 0;
+}

@@ -1,0 +1,77 @@
+.Cuestionarios
+{
+	width: 900px;
+}
+.Cuestionarios input[type = "text"]
+{
+	font-size: 10pt;
+	height: 30px;
+	width: 80%;
+	font: 20px;
+	border-radius: 15px;
+}
+
+.Cuestionarios textarea
+{
+	max-width: 500px;
+	min-width: 500px;
+	max-height: 100px;
+	min-height: 100px;
+	font-size: 20pt;
+	border-radius: 15px;
+}
+
+.Cuestionarios input[type = "submit"]
+{
+	background-color: #33C1FF;
+	font: 20px;
+	margin-left: 20px;
+	border-radius: 15px;
+	height: 40px;
+	width: 150px;
+}
+
+.Cuestionarios input[type = "submit"]:hover
+{
+	color: white;
+	background-color: #038EB0;
+}
+
+.Informacion
+{
+	display: table-block;
+	display: flex;
+}
+
+.Logo
+{
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+}
+
+
+h2
+{
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+.Informacion p
+{
+	margin-right: 40px;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+
+.Centro a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+.Centro
+{
+	border-radius: 20px;
+	background-color: #D0D0D0;
+}

@@ -1,0 +1,42 @@
+.Informacion
+{
+	display: table-block;
+	display: flex;
+}
+
+.Logo
+{
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+}
+
+h2
+{
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+.Informacion p
+{
+	margin-right: 40px;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+
+.Centro a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+.Centro
+{
+	border-radius: 20px;
+	background-color: #D0D0D0;
+}
+
+.Centro:hover
+{
+	background-color: red;
+}
